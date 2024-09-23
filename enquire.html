@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquire</title>
+</head>
+<body>
+    <section>
+        <div>
+            <h2>Place Your Order Enquiry</h2>
+                <p>Can't wait to put a smile on your face. To check out the menu , click  <a href="./menu.html">here.</a>
+                </p>
+                <p>
+                    Please ensure that you have filled out all the fields. It is important that we know the required date of your order and specific date of your event.
+                    After this you will receive a deposit invoice from the company.
+                </p>
+
+                <form action="/submit-enquiry" method="POST">
+                <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                 <label for="phone">Phone Number (optional):</label><br>
+                     <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="event-date"> When is your event:</label>
+                <input type="date" id="date" name="date" required><br/><br/>
+
+                <label for="done-date">What date do you want your order by:</label>
+                <input type="date" id="date" name="date" required><br/><br/>
+                <label for="message">Tell us about your event(Include colors, themes,number of people attending):</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+  <!-- Optional fields like file upload or dropdown for inquiry type can be added here -->
+
+  <button type="submit">Submit</button>
+</form>
+</div>
+</section>
+<section>
+    Contact the baker:
+    <a href="./contact.html">CONTACT</a>
+</section>
+<section>
+ <HR>
+    We can have a map, privacy notice, 
+</section>
+<hr>
+</body>
+</html>
